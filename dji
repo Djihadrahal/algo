@@ -1,9 +1,0 @@
-program test
-character(len=70)::meattype
-print*,"what type of meat would you like to eat "
-read*,meattype
-write(*,*)
-
-print*," you selected:trim(meattype),meat"
-
-end program test
