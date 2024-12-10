@@ -12,7 +12,7 @@ element* creerListe() {
     return NULL;
 }
 
-// 2. chargerListe: إنشاء قائمة من جدول أعداد (إضافة في النهاية للحفاظ على الترتيب)
+// 2. chargerListe: إنشاء قائمة من جدول أعداد إضافة في النهاية للحفاظ على الترتيب)
 element* chargerListe(int Tab[], int n, element* liste) {
     for (int i = 0; i < n; i++) {
         element* nouveau = (element*)malloc(sizeof(element));
