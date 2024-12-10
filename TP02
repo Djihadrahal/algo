@@ -33,16 +33,22 @@ void AfficherTab(char Tab[], int m) {‍
 ‍
 int main() {‍
  int n;‍
+يقراء طول الكلمة
  printf("Veuillez saisir la taille maximale de la chaine:\n");‍
  scanf("%d", &n);‍
+يدخل شان او كلمة
  char *ch = ChargerChaine(n);‍
+يحسب طول الكلمة شان
  int m = Longueur(ch);‍
- char Tab[m], T[m];‍
+char Tab[m],T[m];
+اجراء يملأ الجدول
  ChargerTab(ch, Tab);‍
  printf("La chaine originale: \n");‍
  AfficherTab(Tab, m);‍
+يعكس الكلمة
  InverserTab(Tab, T, m);‍
  printf("La chaine inversée:\n");‍
+يدخل الكلمة في الجدول
  AfficherTab(T, m);‍
  free(ch);‍
  return 0;‍
