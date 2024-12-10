@@ -1,7 +1,7 @@
 #include<stdio.h>‍
 #include <string.h>‍
 #include <stdlib.h>‍
-يدخل شان كلمة ‍
+يدخل شان كلمة.
 char *ChargerChaine(int N) {‍
  char *chaine = (char*)malloc(N+1);‍
  printf("Veuillez saisir la chaine:\n");‍
